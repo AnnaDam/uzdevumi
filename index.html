@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="lv">
+    <head>
+        <title>Cēsis tūristiem</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="functions.js"></script>
+ 
+    </head>
+    <body  onload="startTime()">
+        
+        <!--dropdown sadaļa-->
+        <div class="dropdown">
+            <button onclick="dropdown()" class="dropbtn">
+               <a href="index.html"> <input type="image" src="home.png" alt="izvēlne" width="20" height="15" /></a> </button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="index.html">Sākumlapa</a>
+              <a href="vietas.html">Apskates vietas</a>
+                <a href="cesu_pils.html">Cēsu pils</a>
+                <a href="jauna_pils.html">Jaunā pils</a>
+            </div>
+          </div>
+
+        <!--režīma maiņas sadaļa (komentēts)  -->
+          <!-- <div class="mode-swich">
+            <input type="image" id="lightbulb" src="lightbublb.png" onclick="mode_swich()" />
+        </div> -->
+
+        
+        <!--Laiks-->
+        <div id="txt"></div>
+
+        <!--galvenā sadaļa-->
+        <div class="fade">
+             <h1>Cēsis tūristiem</h1>
+             <div class = "titleimg">
+                 <p>Vai vēlis apmeklēt Cēsis? Tad šeit varēsiet atrast informāciju par interesantām vietām Cēsīs, kuras ir vērts apskatīt. </p>
+                 <div class="fadeimg">      
+                      <img class = "centerimg" id="cesis" src="cesis.jpg" style="width: 1280px; height: 450px;">  
+                 </div>
+            </div>
+            
+             <p style="size: 24px">Uzzini par Cēsu apmeklētākajām tūrisma vietām: Cēsu pilīm, laukumiem, un citām vēstures un
+                kultūras saistītām vietām. Uzzini un noskaidro šeit tūrisma vietu darba laikus, lokāciju, cenas un citas lietas.</p> <br>
+             
+       </div>
+
+    <div class="container">
+        <div class="center">
+            <a href="vietas.html" class="button">Skatīt apskates objektus</a>
+       </div>
+    </div>
+      <hr>
+     
+     <!--validācijas forma-->
+
+     <div class="valid">
+         <h3>Nosūtīt jautājumu vai ieteikumus</h3>
+         <form name="myForm" onsubmit="return validateForm()" action=" " method="post">
+             <input type="text" id="email" name="email" placeholder="Jūsu e-pasts" size="48"> <br>
+             <input type="text" id="title" name="title" placeholder="Virsraksts" size="48"> <br> <br>
+             <textarea name="message" id="message" placeholder="Ievadiet tekstu..." rows="4" cols="50"></textarea> <br>
+             <input type="submit" name="submit" value="Sūtīt" class="button">
+         </form>  
+         <p id="demo" style="color: red; font-size: 15px;"></p>
+     </div>
+     <hr>
+     
+      <!--kājene-->
+      <div style="color:gray; font-size: 60%;">
+      <p>Visa informācija ņemta <a href="https://www.latvia.travel/lv/city/cesis-8" style="color: blue;">Šeit</a> </p>  <br>
+      </div>
+      
+    </body>
+</html>
