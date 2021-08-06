@@ -1,0 +1,14 @@
+{
+    "items": {
+        "2": {
+            "text": "23",
+            "done": true,
+            "date": "23:23 4.05.2020"
+        },
+        "9": {
+            "text": "jauns uzdevums otrdien\u0101",
+            "done": false,
+            "date": "11:30 5.05.2020"
+        }
+    }
+}
