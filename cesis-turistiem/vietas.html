@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="lv">
+    <head>
+        <title>Apskates vietas Cēsīs</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <link rel="stylesheet" href="darkmode.css">
+        <link rel="stylesheet" href="style.css"> -->
+        <script src="functions.js"></script>
+    </head>
+    <body onload="startTime()">
+
+        <!--dropdown sadaļa-->
+        <div class="dropdown">
+            <button onclick="dropdown()" class="dropbtn">
+               <a href="index.html"> <input type="image" src="home.png" alt="izvēlne" width="20" height="15" /></a> </button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="index.html">Sākumlapa</a>
+              <a href="vietas.html">Apskates vietas</a>
+                <a href="cesu_pils.html">Cēsu pils</a>
+                <a href="jauna_pils.html">Jaunā pils</a>
+            </div>
+          </div>
+
+        <!--režīma maiņas sadaļa (komentēts)  -->
+          <!-- <div class="mode-swich">
+            <input type="image" id="lightbulb" src="lightbublb.png" onclick="mode_swich()" />
+        </div> -->
+
+        <!--Laiks-->
+        <div id="txt"></div>
+
+        <!--Galvenā sadaļa-->
+        <h1>Apskates objekti</h1>
+
+        <br>
+        <table>
+            <tr>
+                <th>Attēls</th>
+                <th>Nosaukums</th>
+                <th>Saite</th>
+            </tr>
+            <tr>
+                <td><img src="cesu_pils1.jpg" style="width: 150px; height: 100px;"></td>
+                <td>Vidusslaiku pils</td>
+                <td><a href="cesu_pils.html">Skatīt vairāk</a></td>
+            </tr>
+            <tr>
+                <td><img src="jauna_pils.jpg" style="width: 150px; height: 100px;"></td>
+                <td>Cēsu jaunā pils</td>
+                <td><a href="jauna_pils.html">Skatīt vairāk</a></td>
+            </tr>
+
+        </table>
+        <!--Lai malas labāk izskatās-->
+        <br><br><br><br>
+    </body>
+</html>
