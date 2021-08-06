@@ -1,1 +1,14 @@
+Cēsis tūristiem mājaslapa
 
+Izmantotās valodas: (HTML), CSS, JavaScript + jQuery
+
+Galvenie attēli un teksti, kuri uznāk ar "fade in" animāciju (ar jQuery). Kreisajā augšējā stūrī ir "dropdown" poga.
+Mājas lapai ir arī divi režīmi, kuri mainās pēc datora laika: gaišais režīms ir no 8.00 līdz 22.00, tumšais režīms no 22.00 līdz 8.00
+Ir 2 CSS stilu lapas, kuri mainās un tiek definēti Javascript failā. 
+
+Pašu mājaslapu var apskatīt arī šeit: http://uzdevumi.atwebpages.com/cesis_turistiem
+
+Vecāku mājaslapas versiju var apskatīt šeit: http://cesisturistiem.atwebpages.com/ 
+
+Vecākā versijā ir poga, kas maina režīmu manuāli (bet pārejot uz citu iekšlapu tas nomainīs režīmu pēc datora laika)
+Vecākā versijā "Home" ikona nav interaktīva. Jaunākā versijā tas aizved uz sākumlapu.
