@@ -8,4 +8,6 @@ Vairāk informācijas par katru paraugu ir to attiecīgajā mapē.
 
 "paintbrush" - parasts, viena faila Javascript ekspermentālais projekts. 
 
-"todo" - To Do saraksts ar iespēju dzēst, pievienot, atzīmēt ierakstus. 
+"todo" - To Do saraksts ar iespēju dzēst, pievienot, atzīmēt ierakstus. Izmantotās valodas: CSS, PHP.
+
+"figuras" - Windows aplikācija, kas spēj aprēķināt figūras (ar formulām) Izmantotās valodas: C#
