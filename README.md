@@ -10,4 +10,4 @@ Vairāk informācijas par katru paraugu ir to attiecīgajā mapē.
 
 "todo" - To Do saraksts ar iespēju dzēst, pievienot, atzīmēt ierakstus. Izmantotās valodas: CSS, PHP.
 
-"figuras" - Windows aplikācija, kas spēj aprēķināt figūras (ar formulām) Izmantotās valodas: C#
+"figuras" - Windows aplikācija, kas spēj aprēķināt figūras (ar formulām). Izmantotās valodas: C#
