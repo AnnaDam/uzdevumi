@@ -61,9 +61,7 @@
 
 			<strong>Izvade:</strong>
 
-
 	<p>
-
 
 		<?=$izvade?>
 
