@@ -1,5 +1,4 @@
 Katrs uzdevums/paraugs ir savā mapē (directory)
-Vairāk informācijas par katru paraugu ir to attiecīgajā mapē.
 (Visi ir bijušie skolas uzdevumi)
 
 "cesis_turistiem" - vienkārša mājaslapa. Izmantotās valodas: CSS, JavaScript (+jQuery)
